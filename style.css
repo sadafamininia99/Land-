@@ -3,3 +3,27 @@
   --font1: 'Lato', sans-serif;
   --font2: 'Playfair Display', serif;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: #f9f3e7;
+    font-family: var(--font1);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/*** navigation section****/
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
