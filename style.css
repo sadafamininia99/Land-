@@ -82,3 +82,32 @@ nav{
     animation: blue-img 1s linear;
     animation-fill-mode: forwards;
 }
+.pink-img{
+    animation: blue-img 1s linear;
+    animation-fill-mode: forwards;
+}
+.purple-img{
+ animation:purple-img 1s linear;
+ animation-fill-mode: forwards;
+}
+.hero-details h1{
+    font-family: var(--font2);
+    font-size: 2.3rem;
+    padding-bottom: 1rem;
+
+}
+.hero-details p{
+    line-height: 1.5rem;
+    color: #5a5a58;
+    font-weight: 300;
+    padding-bottom: 1rem;
+}
+.hero-details input{
+    width:100%;
+    height: 3.5rem;
+    border: none;
+    padding-left: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    outline: none;
+}
