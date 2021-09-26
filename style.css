@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Playfair+Display:wght@400;600;700;800&display=swap');
+:root {
+  --font1: 'Lato', sans-serif;
+  --font2: 'Playfair Display', serif;
+}
