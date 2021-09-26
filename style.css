@@ -27,3 +27,32 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+header svg{
+    cursor: pointer;
+}
+nav{
+    display: none;
+}
+.nav_form_links{
+    display: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 5rem;
+}
+.logo a{
+    font-size: 13px;
+    background: linear-gradient(
+        90deg,
+        rgba(234,171,85,1) 0% ,
+        rgba(234,96,111,1) 100%
+    );
+    border-radius: 2rem;
+    padding: 5px 10px;
+    color:#fff;
+    margin-left:5px;
+}
