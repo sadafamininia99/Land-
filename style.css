@@ -66,3 +66,19 @@ nav{
     overflow: hidden;
     
 }
+.hero-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 20rem;
+} 
+.hero-img img{
+    position: absolute;
+    width: 14.5rem;
+
+}
+.blue-img{
+    animation: blue-img 1s linear;
+    animation-fill-mode: forwards;
+}
