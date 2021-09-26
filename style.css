@@ -56,3 +56,13 @@ nav{
     color:#fff;
     margin-left:5px;
 }
+
+/******* Hero section ********/
+.hero-section{
+    padding: 20px;
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+    overflow: hidden;
+    
+}
