@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Playfair+Display:wght@400;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f3e7;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header .logo-hiring-container {
+  margin: 1rem -61px 0 45px;
+}
+header img {
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+header .hiring-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #eaab55 0%, #ea606f 100%);
+  font-size: 0.9rem;
+  color: #fff;
+  font-weight: 500;
+  text-transform: none;
+  padding: 0.4rem;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  margin-top: 0.6rem;
+}
+header nav {
+  margin: 1rem 85px 0px 151px;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+header nav ul a {
+  font-size: 1.1rem;
+  color: #000000b6;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-decoration: none;
+  margin: 1rem;
+}
+header .sign-join-container {
+  margin: 1rem 3rem 5px 40px;
+}
+header .sign-join-container a {
+  font-size: 1.1rem;
+  color: #000000b6;
+  font-weight: 500;
+  text-transform: none;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+header .sign-join-container .btn {
+  background-color: #4977e9;
+  border: none;
+  padding: 1rem;
+  border-radius: 4px;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1rem 0 1rem 0;
+}
+main .central-img {
+  margin: 3rem 0rem 0 0;
+}
+main .central-img .origin-img {
+  width: 20rem;
+  height: 23rem;
+  transform: rotate(-6deg);
+}
+main .central-img #Purple,
+main .central-img #Pink,
+main .central-img #Blue {
+  width: 21rem;
+  height: 23rem;
+  position: absolute;
+  right: 100px;
+}
+main .central-img #Purple {
+  position: absolute;
+  z-index: -1;
+  transform: rotate(-25deg);
+}
+main .central-img #Pink {
+  position: absolute;
+  z-index: -2;
+  transform: rotate(-45deg);
+}
+main .central-img #Blue {
+  position: absolute;
+  z-index: -3;
+  transform: rotate(-60deg);
+}
+main .content {
+  width: 50%;
+  margin-top: 3rem;
+}
+main .content h1 {
+  font-size: 3rem;
+  color: black;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 1rem;
+  width: 500px;
+}
+main .content p {
+  font-size: 1rem;
+  color: #000000b6;
+  font-weight: 500;
+  text-transform: none;
+  margin-bottom: 1rem;
+  line-height: 30px;
+  width: 450px;
+}
+main .content input {
+  padding: 1rem;
+  outline: none;
+  border: none;
+  margin-right: 1rem;
+}
+main .content .btn {
+  background-color: #4977e9;
+  border: none;
+  padding: 1rem;
+  border-radius: 4px;
+  color: #fff;
+}
+main .content .Checkmark-content {
+  width: 50%;
+  margin-top: 1rem;
+}
+main .content .Checkmark-content img {
+  margin: 0 0.8rem 0.1rem 0;
+  vertical-align: middle;
+}
+main .content .Checkmark-content span {
+  font-size: 0.9rem;
+  color: #000000b6;
+  font-weight: 500;
+  text-transform: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer .links {
+  margin: 3rem 30rem 0 0;
+}
+footer .links a {
+  font-size: 1.1rem;
+  color: #000000b6;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 1rem;
+}
+footer .chat {
+  display: flex;
+  flex-direction: row;
+  margin: 3rem 0 0 0;
+}
+footer .chat #help_avatar {
+  margin-right: 1rem;
+}
+footer .chat .chat-content {
+  display: flex;
+  flex-direction: column;
+}
+footer .chat a {
+  font-size: 1.1rem;
+  color: #000;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-decoration: none;
+  margin: 0.2rem;
+  font-family: "Lato", sans-serif;
+}
+footer .chat #Talk_Footer {
+  font-size: 1.1rem;
+  color: #000;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-family: "Playfair Display", serif;
+}
+
+/*# sourceMappingURL=style.css.map */

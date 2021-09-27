@@ -1,93 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Hostter waitLIst </title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/css/style.css">
+  </head>
+  <body>
+      <!-- ? Header Content-->
     <header>
-        <div class="logo">
-            <img src="/Assets/Logo.svg" alt="logo">
-            <a href="#">Hosster is hirring</a>
+        <div class="logo-hiring-container">
+            <img src="./Assets/Logo.svg" alt="Hosterr" />
+            <a class="hiring-btn" href="#">Hosterr is hiring!</a>
         </div>
-        <nav>
-            <ul>
-             <li>
-                 <a href="#">plans</a>
-             </li>
-             <li>
-                  <a href="#">Find domain</a>
-             </li>
-             <li>
-                 <a href="#">web hoster</a>
-             </li>
-            
-            </ul>
-        </nav>
-        <div class="nav_from_links">
-            <a href=""sign in ></a>
-            <button class="btn">Join waitlist</button>
-        </div>
-        <svg
-        width="24"
-        height="20"
-        viewbox="0 0 24 20"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M24 4H0V0H24V4ZM24 8H0V12H24V8ZM24 16H0V20H24V16Z"
-          fill="black"
-        />
-      </svg>
+
+      <nav>
+          <ul>
+              <li><a href="#">Plans</a></li>
+              <li><a href="#">Find Domain</a></li>
+              <li><a href="#">Why Hosterr</a></li>
+          </ul>
+      </nav>
+
+      <div class="sign-join-container">
+        <a href="#">Sign in</a>
+        <button class="btn"">Join Waitlist</button>
+      </div>
     </header>
 
-    <!------------------------------Hero section-->
-    <section class="hero-section">
-        <div class="hero-img">
-            <img class="blue image" src="./Assets/Blue Shape.svg" alt="">
-            <img class="pink-img" src="Assets/Pink Shape.svg" alt="">
-            <img class="purple-img" src="Assets/Purple Shape.svg" alt="">
-            <img  class="modal-img" src="./Assets/Hero Image (Model).png" alt="">
+
+<!-- ? Main content -->
+    <main>
+        <div class="central-img">
+            <img class="origin-img" src="./Assets/Hero Image (Model).png" alt="">
+            <img id="Purple" src="./Assets/Purple Shape.svg" alt="">
+            <img id="Pink" src="./Assets/Pink Shape.svg" alt="">
+            <img id="Blue" src="./Assets/Blue Shape.svg" alt="">
         </div>
-        <div class="hero-details">
-            <h1>
-                Host your website in <br />
-                less than 5 minutes.
-            </h1>
-            <p>
-                With Hosterr, get your website up and running in no less than 5 <br />
-                minutes with the most competitive pricing packages available <br />
-                online.
-            </p>
-            <div class="form">
-                <input type="text" placeholder="Enter a e-mail address">
-                <button class="btn">Join waitlist </button>
-            </div>
-            <div class="form-info">
-                <img src="/Assets/Checkmark.svg" alt="">
-                <span>NO spam ,ever .Unsubscribe anytime.</span>
-            </div>
+
+        <div class="content">
+        <h1>Host your website in less than 5 minutes.</h1>
+        <p>With Hosterr, get your website up and running in no less than 5 minutes with the most competitive pricing packages available online.</p>
+        <input type="text" placeholder="Enter a e-mail address">
+        <button class="btn">Join Waitlist</button>
+
+        <div class="Checkmark-content">
+        <img src="./Assets/Checkmark.svg" alt="">
+        <span>NO spam ,ever .Unsubscribe anytime.</span>
+    </div>
         </div>
-    </section>
-    <!-----------footer-->
+    </main>
+
+<!-- ? Footer Content -->
     <footer>
-        <ul>
-          <li>Facebook</li>
-          <li>Instagram</li>
-          <li>Twitter</li>
-        </ul>
-        <div class="help_centre">
-          <img src="/Assets/Help Avatar.svg" alt="" />
-          <div>
-            <p>Have any questions?</p>
-            <h5>Talk to a specialist</h5>
-          </div>
+        <div class="links">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
         </div>
-      </footer>
-      
-</body>
+
+        <div class="chat">
+            <img id="help_avatar" src="./Assets/Help Avatar.svg" alt="">
+            <div class="chat-content">
+            <a href="#">Have any questions?</a>
+            <a id="Talk_Footer" href="#">Talk to a specialist</a>
+        </div>
+        </div>
+    </footer>
+
+  </body>
 </html>
