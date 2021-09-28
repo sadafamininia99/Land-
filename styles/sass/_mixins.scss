@@ -1,0 +1,20 @@
+@mixin overal {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@mixin textStyle($size, $weight, $color, $tform) {
+  font-size: $size;
+  color: $color;
+  font-weight: $weight;
+  text-transform: $tform;
+}
+
+@mixin buttonStyle {
+  background-color: #4977e9;
+  border: none;
+  padding: 1rem;
+  border-radius: 4px;
+  color: #fff;
+}

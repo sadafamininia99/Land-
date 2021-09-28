@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Playfair+Display:wght@400;600;700;800&display=swap");
+
+@import "variablse";
+@import "mixins";
+
+* {
+  @include overal;
+}
+
+body {
+  background-color: #f9f3e7;
+  font-family: $font-family1;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .logo-hiring-container {
+    margin: 1rem -61px 0 45px;
+  }
+
+  img {
+    vertical-align: middle;
+    margin-right: 1rem;
+  }
+  .hiring-btn {
+    display: inline-block;
+    background: linear-gradient(
+      90deg,
+      rgba(234, 171, 85, 1) 0%,
+      rgba(234, 96, 111, 1) 100%
+    );
+    @include textStyle(0.9rem, 500, #fff, none);
+    padding: 0.4rem;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 0.6rem;
+  }
+
+  nav {
+    margin: 1rem 85px 0px 151px;
+
+    ul {
+      display: flex;
+      list-style: none;
+
+      a {
+        @include textStyle(1.1rem, 500, #000000b6, capitalize);
+        text-decoration: none;
+        margin: 1rem;
+      }
+    }
+  }
+  .sign-join-container {
+    margin: 1rem 3rem 5px 40px;
+
+    a {
+      @include textStyle(1.1rem, 500, #000000b6, none);
+      text-decoration: none;
+      margin-right: 1rem;
+    }
+
+    .btn {
+      @include buttonStyle;
+    }
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1rem 0 1rem 0;
+
+  .central-img {
+    margin: 3rem 0rem 0 0;
+    .origin-img {
+      width: 20rem;
+      height: 23rem;
+      transform: rotate(-6deg);
+    }
+
+    #Purple,
+    #Pink,
+    #Blue {
+      width: 21rem;
+      height: 23rem;
+      position: absolute;
+      right: 100px;
+    }
+
+    #Purple {
+      position: absolute;
+      z-index: -1;
+      transform: rotate(-25deg);
+    }
+
+    #Pink {
+      position: absolute;
+      z-index: -2;
+      transform: rotate(-45deg);
+    }
+
+    #Blue {
+      position: absolute;
+      z-index: -3;
+      transform: rotate(-60deg);
+    }
+  }
+
+  .content {
+    width: 50%;
+    margin-top: 3rem;
+
+    h1 {
+      @include textStyle(3rem, bold, black, capitalize);
+      font-family: $font-family2;
+      margin-bottom: 1rem;
+      width: 500px;
+    }
+
+    p {
+      @include textStyle(1rem, 500, #000000b6, none);
+      margin-bottom: 1rem;
+      line-height: 30px;
+      width: 450px;
+    }
+
+    input {
+      padding: 1rem;
+      outline: none;
+      border: none;
+      margin-right: 1rem;
+    }
+
+    .btn {
+      @include buttonStyle;
+    }
+
+    .Checkmark-content {
+      width: 50%;
+      margin-top: 1rem;
+      img {
+        margin: 0 0.8rem 0.1rem 0;
+        vertical-align: middle;
+      }
+      span {
+        @include textStyle(0.9rem, 500, #000000b6, none);
+      }
+    }
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .links {
+    margin: 3rem 30rem 0 0;
+
+    a {
+      @include textStyle(1.1rem, 500, #000000b6, capitalize);
+      text-decoration: none;
+      padding: 1rem;
+    }
+  }
+
+  .chat {
+    display: flex;
+    flex-direction: row;
+    margin: 3rem 0 0 0;
+
+    #help_avatar {
+      margin-right: 1rem;
+    }
+
+    .chat-content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    a {
+      @include textStyle(1.1rem, 500, #000, capitalize);
+      text-decoration: none;
+      margin: 0.2rem;
+      font-family: $font-family1;
+    }
+
+    #Talk_Footer {
+      @include textStyle(1.1rem, bold, #000, capitalize);
+      font-family: $font-family2;
+    }
+  }
+}
