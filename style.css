@@ -188,6 +188,7 @@
         transform: rotate(-47deg);
       }
     }
+    /*******pink img animation *****/
       @keyframes pink-img {
         0% {
           transform: rotate(0deg);
@@ -199,6 +200,8 @@
           transform: rotate(-35deg);
         }
       }
+          /*******purple img animation *****/
+
       @keyframes purple-img {
         0% {
           transform: rotate(0deg);
