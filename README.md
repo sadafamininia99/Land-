@@ -1,4 +1,4 @@
-# Land-
+# Landing 
 Landing page
 
-[!screenshoot] {Design/Landing Page - Desktop View.png}
+<!-- [!screenshoot] {Design/Landing Page - Desktop View.png} -->
