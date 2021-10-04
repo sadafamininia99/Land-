@@ -8,4 +8,4 @@ Landing page
 
 <!-- Landing Page - Desktop View.png -->
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/sadafamininia99/Land-/blob/master/Design/desktopimg.png)
